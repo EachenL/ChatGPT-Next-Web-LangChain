@@ -5,6 +5,7 @@ import {
   DEFAULT_INPUT_TEMPLATE,
   DEFAULT_MODELS,
   DEFAULT_SIDEBAR_WIDTH,
+  PLUGIN_USING_STATUS,
   StoreKey,
 } from "../constant";
 import { createPersistStore } from "../utils/store";
@@ -60,7 +61,7 @@ export const DEFAULT_CONFIG = {
   },
 
   pluginConfig: {
-    enable: true,
+    enable: PLUGIN_USING_STATUS,
     maxIterations: 10,
     returnIntermediateSteps: true,
   },
